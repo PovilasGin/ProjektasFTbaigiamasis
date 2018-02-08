@@ -1,0 +1,266 @@
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    
+    .btn{
+        width: 25%;
+        text-transform: uppercase;
+        font-size: 18px;        
+        color: white;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 20px;
+        user-select: none;
+        
+    }
+    .one{
+        background: rgb(255, 73, 73); 
+        transition: 0.3s;
+    }
+    .one:hover{
+        background: rgb(255, 100, 100);
+    }   
+    .two{
+        background: rgb(255, 152, 56);
+        transition: 0.3s;
+    }
+    .two:hover{
+        background: rgb(255, 164, 85);
+    }   
+    .three{
+        background: rgb(255, 225, 56); 
+        transition: 0.3s;
+    }
+    .three:hover{
+        background: rgb(255, 228, 91);
+    }   
+    .four{
+        background: rgb(89, 236, 53); 
+        transition: 0.3s;
+    }
+    .four:hover{
+        background: rgb(89, 235, 106);
+    }   
+    .one:active, .two:active, .three:active, .four:active{
+        
+        font-size: 17px;
+    }
+    .one:active{
+       background: rgb(255, 73, 73);
+    }
+    .two:active{
+        background: rgb(255, 152, 56);
+    }
+    .three:active{
+        background: rgb(255, 225, 56);
+    }
+    .four:active{
+        background: rgb(89, 236, 53);
+    }
+}
+.slide{
+    position: relative;
+    .text{
+        font-family: 'Dancing Script', cursive;
+        color: white;
+         font-size: 30px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 20%;
+        z-index: 5;
+        
+        width: 20%;
+        font-weight: 700;
+        left: 10%;
+        text-align: center;
+        transition: 1s;
+    }
+    
+    
+    img::after{
+        box-shadow: inset 30px 30px 10px 10px #000000;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+       
+    }
+    img{
+        display: inline-block;
+        width: 100%;
+        box-shadow: inset 20px 20px 20px #000000;  
+        transition: 0.5s;
+      
+        top: 0;
+        left: 0;
+
+
+    }
+    .fade{
+        
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      .text{
+        
+        animation-name: fade2;
+        animation-duration: 1.5s;
+      }
+      
+      
+      
+      @keyframes fade2 {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      
+      
+    
+    .fa{
+        
+       margin: auto;
+       padding: 18px 24px;
+        font-size: 32px;
+        background: none;
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        z-index: 3;
+        transition: 0.5s;
+    }
+    .fa:hover{
+        background: rgba(189, 189, 189, 0.753);
+
+    }
+    .fa-chevron-right{
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        
+    }
+    .fa-chevron-left{
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        
+    }
+}
+.slide:after{
+    box-shadow: inset 0px 0px 150px 50px #000000;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    user-select: none;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-between;
+    .logos{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+    }    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    .wrapper2{
+        background: rgb(224, 224, 224);
+    }
+    .wrapper{
+        background: rgb(192, 192, 192);
+        
+        
+    }
+    .wrapper3{
+        width: 31%;
+        position: relative;
+        img{
+            width: 100%;
+            
+
+        }
+        .press{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-transform: uppercase;
+            color: $color-dgray;
+            border: 1px solid $color-gray;
+            background: white;
+            padding: 15px 0px;
+            width: 80%;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0px 0px 5px 5px $color-gray;
+            user-select: none;
+        }
+        .press:hover{
+            background: $color-text;
+            color: white;
+            box-shadow: 0px 0px 5px 5px black;
+        }
+        .press:active{
+            box-shadow: 0px 0px 1px 3px black;
+        }
+
+
+    }
+    .wrapper, .wrapper2{
+       padding: 25px 25px;
+        line-height: 50px;
+        width: 23%;
+        text-align: left;
+    
+        p{
+   
+            width: 80%;
+            border: 1px solid $color-dgray;
+        }
+        li{
+            padding-top: 15px;
+            font-size: 14px;
+            user-select: none;
+        }
+        h2{
+            color: $color-dgray;
+            text-transform: uppercase;
+            
+            font-weight: 800;
+            font-size: 16px;
+        }
+        li, a{
+            text-transform: none;
+            color: $color-dgray;
+            line-height: 20px;
+            user-select: none;
+
+        }
+    }
+}
+.copyright{
+    background: #4d4d4d;    
+    color: #fff;    
+    font-size: 14px;    
+    padding: 24px 15px;    
+    line-height: 18px;
+}

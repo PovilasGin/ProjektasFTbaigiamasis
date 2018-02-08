@@ -1,0 +1,192 @@
+@media (max-width: 900px){
+    header .header img {
+        width: 40%;
+        padding-top: 10px;
+        margin-right: auto;
+    }
+    header .search li {
+        font-size: 12px;
+        line-height: 25px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    header .nav button {
+        transition: .2s;
+        padding: 7px;
+        padding-left: 7px;
+        padding-left: 12px;
+        box-sizing: border-box;
+        margin: auto;
+        text-transform: uppercase;
+        color: #696969;
+        background: #fff;
+        border: none;
+        font-family: Roboto;
+        font-size: 13px;
+        border: 1px solid #fff;
+    }
+    .buttons .btn {
+        width: 25%;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: #fff;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 17px;
+        user-select: none;
+    }
+    .slide .text {
+        font-size: 25px;
+    }
+    .container .wrapper h2{
+        font-size: 12px;
+    }
+    .container .wrapper li{
+        font-size: 10px;
+    }
+    .container .wrapper2 h2{
+        font-size: 12px;
+    }
+    .container .wrapper2 li{
+        font-size: 10px;
+    }
+    .container .wrapper, .container .wrapper2 {
+        padding: 15px 15px;
+        line-height: 20px;
+        width: 23%;
+        text-align: left;
+    }
+    .container .wrapper a{
+        line-height: 10px;
+    }
+    .container .wrapper2 a{
+        line-height: 10px;
+    }
+    .container .wrapper li{
+        line-height: 10px;
+    }
+    .container .wrapper3 .press{
+        font-size: 14px;
+    }
+
+}
+@media(max-width: 600px){
+    
+    header .search li {
+        font-size: 8px;
+        line-height: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    header .nav button {
+        transition: .2s;
+        padding: 7px;
+        padding-left: 7px;
+        padding-left: 8px;
+        box-sizing: border-box;
+        margin: auto;
+        text-transform: uppercase;
+        color: #696969;
+        background: #fff;
+        border: none;
+        font-family: Roboto;
+        font-size: 10px;
+        border: 1px solid #fff;
+    }
+    .buttons .btn {
+        width: 25%;
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #fff;
+        padding: 20px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        line-height: 17px;
+        user-select: none;
+    }
+    .slide .text {
+        font-size: 25px;
+    }
+    .container .wrapper h2{
+        font-size: 12px;
+    }
+    .container .wrapper li{
+        font-size: 10px;
+    }
+    .container .wrapper2 h2{
+        font-size: 12px;
+    }
+    .container .wrapper2 li{
+        font-size: 10px;
+    }
+    .container .wrapper, .container .wrapper2 {
+        padding: 15px 15px;
+        line-height: 20px;
+        width: 23%;
+        text-align: left;
+    }
+    .container .wrapper a{
+        line-height: 10px;
+    }
+    .container .wrapper2 a{
+        line-height: 10px;
+    }
+    .container .wrapper li{
+        line-height: 10px;
+    }
+    .container .wrapper3 .press{
+        font-size: 14px;
+    }
+    header .header{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    header .search input{
+        padding: 0;
+    }
+    header .fa{
+        font-size: 10px;
+    }
+    header .fa-search{
+        line-height: 15px;
+        width: 20px;
+    }
+    header .drop-cont a{
+        line-height: 10px;
+    }
+    header .drop-cont{
+        font-size: 10px;
+        width: 200px;
+        
+        
+    }
+    header .drop-cont a{
+        padding: 10px 12px;
+    }
+    .slide .text{
+        font-size: 15px;
+    }
+    .slide .fa{
+        font-size: 15px;
+        padding: 14px 20px;
+    }
+    .container .wrapper2{
+        width: 44%;
+       
+    }
+    .container .wrapper3 {
+        width: 44%;
+        
+    }
+    .container .wrapper{
+        width:44%;
+       
+    }
+    .container{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

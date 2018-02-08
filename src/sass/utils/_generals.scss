@@ -1,0 +1,19 @@
+body{
+    background: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+.container{
+    
+    margin: auto;
+    @media (max-width: 1920px) {
+        width:96%;
+    }
+}
+.clearfix:after{
+    clear: both;
+    content: '';
+    display: table;
+}
